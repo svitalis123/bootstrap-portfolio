@@ -1,4 +1,144 @@
-.container {
-  margin: 1.5rem;
-  
+.container-fluid {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-image {
+  background: url(./assets/desktopfig.svg) center no-repeat;
+  background-size: auto;
+}
+
+.header {
+  height: 3rem;
+  width: 100%;
+}
+
+.header_nav {
+  width: 20%;
+  margin: auto;
+}
+
+.header_nav > a {
+  color: #344563;
+  font-weight: 600;
+}
+
+.contsection1 {
+  margin-top: 8%;
+}
+
+.contsection1 > h1 {
+  font-weight: 800;
+}
+
+.contsection1 > h1 > span {
+  color: #36b37e;
+}
+
+.contsection1 > p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 24px;
+  color: #172b4d;
+}
+
+.ul1 {
+  margin: auto;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.divr {
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.h1a {
+  color: #172b4d;
+  margin: 152px 1px 52px 1px;
+}
+
+.allarticle > article {
+  height: 474px;
+}
+
+.allarticle > article > figure {
+  width: 100%;
+  height: 100%;
+  background-color: #ebf0ee;
+}
+
+.articledivs > h2 {
+  color: #172b4d;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.articledivs > ul {
+  margin: 29px auto;
+}
+
+.articledivs > ul > li {
+  background-color: #ebf0ee;
+  margin-right: 0.5rem;
+}
+
+.margincont {
+  margin-top: 12%;
+}
+
+.margincont > h2 {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.margincont > p {
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.margincont > button {
+  width: 15%;
+}
+
+.aboutcont {
+  background-color: #ebf0ee;
+}
+
+.aboutcont > h3 {
+  margin-top: 10%;
+}
+
+.aboutcontdiv > p {
+  background-color: #fff;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+.footerdiv {
+  width: 80%;
+  margin: auto;
+}
+
+.footerdiv > h3 {
+  width: 10%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.formbtn {
+  width: 25%;
+}
+
+.lastdiv {
+  margin-top: 15%;
+}
+
+.lastul {
+  margin: auto;
+  width: 20%;
+  justify-content: space-between;
 }
